@@ -24,7 +24,7 @@ public class Rope : MonoBehaviour
 
         if (Input.GetKeyDown("k") || Input.GetKeyDown("l"))
         {
-            rb.velocity = new Vector2(movementSpeed, 0);
+            transform.Translate(Vector3.right);
         }
     }
 
